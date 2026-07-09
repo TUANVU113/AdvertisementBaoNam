@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+
+<html class="light" lang="vi"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SignCraft Industrial | Sự Chính Xác Trong Từng Biển Hiệu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#dadada",
+                        "on-primary-fixed-variant": "#0c4297",
+                        "tertiary-fixed-dim": "#b0c7f5",
+                        "surface-container-highest": "#e2e2e2",
+                        "primary-fixed": "#d9e2ff",
+                        "on-primary-fixed": "#001945",
+                        "on-primary-container": "#aac2ff",
+                        "on-surface-variant": "#434652",
+                        "on-surface": "#1a1c1c",
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#f9f9f9",
+                        "tertiary": "#21395f",
+                        "inverse-on-surface": "#f1f1f1",
+                        "secondary-fixed": "#ffdf9d",
+                        "outline": "#747783",
+                        "secondary-container": "#fdc009",
+                        "error": "#ba1a1a",
+                        "primary": "#003580",
+                        "tertiary-container": "#395077",
+                        "surface-container-high": "#e8e8e8",
+                        "on-tertiary-fixed-variant": "#30476e",
+                        "surface-variant": "#e2e2e2",
+                        "surface-container-low": "#f3f3f3",
+                        "surface": "#f9f9f9",
+                        "on-secondary-container": "#6c5000",
+                        "surface-tint": "#305bb0",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#d6e3ff",
+                        "secondary-fixed-dim": "#f9bd02",
+                        "primary-container": "#1d4ca1",
+                        "background": "#f9f9f9",
+                        "on-error": "#ffffff",
+                        "on-tertiary-container": "#acc3f0",
+                        "on-background": "#1a1c1c",
+                        "inverse-surface": "#2f3131",
+                        "on-secondary-fixed-variant": "#5b4300",
+                        "outline-variant": "#c3c6d4",
+                        "error-container": "#ffdad6",
+                        "on-error-container": "#93000a",
+                        "secondary": "#785a00",
+                        "on-secondary-fixed": "#251a00",
+                        "inverse-primary": "#b0c6ff",
+                        "surface-container": "#eeeeee",
+                        "primary-fixed-dim": "#b0c6ff",
+                        "on-tertiary-fixed": "#001b3e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "md": "24px",
+                        "base": "8px",
+                        "xl": "80px",
+                        "margin": "32px",
+                        "gutter": "24px",
+                        "lg": "48px",
+                        "xs": "4px",
+                        "sm": "12px",
+                        "max-width": "1280px"
+                    },
+                    "fontFamily": {
+                        "h3": ["Work Sans"],
+                        "body-md": ["Inter"],
+                        "button": ["Work Sans"],
+                        "label-caps": ["Inter"],
+                        "h2": ["Work Sans"],
+                        "h1": ["Work Sans"],
+                        "body-lg": ["Inter"]
+                    },
+                    "fontSize": {
+                        "h3": ["24px", {"lineHeight": "1.3", "letterSpacing": "0", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "0", "fontWeight": "400"}],
+                        "button": ["16px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "label-caps": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "h2": ["36px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "h1": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md">
+<!-- 1. TopAppBar (Shared Component) -->
+<header class="sticky top-0 w-full z-50 flex justify-between items-center px-8 h-20 max-w-[1280px] mx-auto bg-white/95 backdrop-blur-md border-b border-slate-200">
+<div class="flex items-center gap-8">
+<a class="text-2xl font-black tracking-tighter text-[#1D4CA1]" href="#">BẢO NAM </a>
+<nav class="hidden md:flex gap-6 items-center">
+<a class="font-h3 text-sm font-medium uppercase tracking-wider text-[#1D4CA1] border-b-2 border-[#1D4CA1] pb-1" href="#">Trang Chủ</a>
+<a class="font-h3 text-sm font-medium uppercase tracking-wider text-slate-600 hover:text-[#1D4CA1] transition-colors duration-200" href="#">lĩnh vực hoạt động</a>
+<a class="font-h3 text-sm font-medium uppercase tracking-wider text-slate-600 hover:text-[#1D4CA1] transition-colors duration-200" href="#">thi công</a>
+<a class="font-h3 text-sm font-medium uppercase tracking-wider text-slate-600 hover:text-[#1D4CA1] transition-colors duration-200" href="#">liên hệ</a>
+<a class="font-h3 text-sm font-medium uppercase tracking-wider text-slate-600 hover:text-[#1D4CA1] transition-colors duration-200" href="#">Giới Thiệu</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex flex-col items-end">
+<span class="text-[10px] font-bold uppercase tracking-widest text-slate-500">Hotline 24/7</span>
+<span class="text-primary font-bold">0917644536</span>
+</div>
+<button class="bg-[#FFC20F] text-[#0B264B] font-button text-sm uppercase px-6 py-3 rounded-lg font-bold hover:bg-[#eab10d] transition-transform active:scale-95">liên hệ zalo</button>
+</div>
+</header>
+<!-- 2. Hero Section / Slider -->
+<section class="relative w-full h-[600px] overflow-hidden bg-[#0B264B]">
+<img class="absolute inset-0 w-full h-full object-cover opacity-60" data-alt="Tòa nhà thương mại cao tầng hiện đại với biển hiệu kiến trúc quy mô lớn rực rỡ vào ban đêm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVDy6HUcScIBp0QF_P0yN7KDXOnMI9sqAargzYTtndkiXs4M2rDa2uOl3EajWKBsigxomz-x0cB3agGwTb9FOoSfE45fWn-TRWc2zpgmWK7ATEABU9AUmGqqQQPW5ZZIeTNpxzJLUmXR_2UutYpNcKnxBIcTFsKGpoEi23DOL6ChRcm1cY2-VjTUT7k0GLNzQKPcTA5jndjL4zImnKRSzpKbYPcKJXNtFwq2EqIs-F5qVyTEPF7QraNaJQHoFsKel7vtjVBhwpw5fi"/>
+<div class="relative z-10 max-w-[1280px] mx-auto px-8 h-full flex flex-col justify-center items-start text-white">
+<span class="bg-secondary-container text-on-secondary-container px-3 py-1 font-label-caps text-xs rounded mb-4">QUẢNG CÁO - THIẾT KÊ - IN ẤN</span>
+<h1 class="font-h1 text-white max-w-2xl mb-6">Kỹ Thuật Chính Xác Cho Biển Hiệu Công Nghiệp</h1>
+<p class="font-body-lg text-slate-200 max-w-xl mb-8">Từ những bộ chữ khổng lồ trên tòa chọc trời đến hệ thống biển chỉ dẫn an toàn hạng nặng, SignCraft mang đến sự bền vững về cấu trúc và sự rõ nét cho thương hiệu trên toàn cầu.</p>
+<div class="flex gap-4">
+<button class="bg-primary-container text-white px-8 py-4 font-button uppercase rounded hover:brightness-110 transition-all">nhận báo giá</button>
+<button class="border-2 border-white text-white px-8 py-4 font-button uppercase rounded hover:bg-white hover:text-primary transition-all"><br/></button>
+</div>
+</div>
+</section>
+<!-- 3. Quick Action Sticky Buttons -->
+<div class="fixed right-6 bottom-32 z-40 flex flex-col gap-3">
+<button class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">chat</span>
+</button>
+<button class="w-14 h-14 bg-[#FFC20F] text-[#0B264B] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">call</span>
+</button>
+</div>
+<!-- 4. Main Services Grid -->
+<section class="py-xl bg-white">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="font-h2 text-on-background mb-2">Lĩnh Vực Chuyên Môn</h2>
+<div class="h-1 w-24 bg-primary mx-auto"></div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-gutter">
+<!-- Service 1 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">branding_watermark</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">Bảng hiệu</h3>
+</div>
+<!-- Service 2 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">light_mode</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">Hộp đèn</h3>
+</div>
+<!-- Service 3 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">ads_click</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">Quảng cáo</h3>
+</div>
+<!-- Service 4 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">title</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">Chữ nổi</h3>
+</div>
+<!-- Service 5 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">print</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">In ẤN</h3>
+</div>
+<!-- Service 6 -->
+<div class="flex flex-col items-center text-center p-6 border border-slate-100 hover:border-primary/20 hover:bg-slate-50 transition-all group">
+<div class="w-16 h-16 bg-surface-container rounded-full flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined !text-3xl">layers</span>
+</div>
+<h3 class="font-h3 text-sm uppercase">In Offset</h3>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Full Service Packages -->
+<section class="relative py-xl bg-surface-container overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-10" data-alt="Xưởng công nghiệp với máy cắt chính xác và công cụ gia công kim loại hiện đại" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTTJls2X1wsA0vGf8Tc6eORY8PPq3SVI0VyV-qHioFMsvNeptso1bZtBUOqHKmQA1MIkT0XnBR1q2rhyzm26w3-XBWWkd-zRD0vbLqkcSbUVwvTMmZ1bYl32Re5JXt084fj1wGKuXGK70rEFzFGbaewNOPg5GYcpB24xYbgowoCAVaG4BkAYbKIY6uILOHb004S513Q45ChkC0G7tkf5rVyD38VJrGg1SOIOYSZX-0738UToPSVeve3EZn1N8oUHf9MSzRaVZbwj6K"/>
+</div>
+<div class="relative z-10 max-w-[1280px] mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-h1 text-primary mb-6">Giải Pháp Biển Hiệu Trọn Gói</h2>
+<p class="font-body-lg text-on-surface-variant mb-8 leading-relaxed"><br/></p>
+<ul class="space-y-4 mb-10">
+<li class="flex items-center gap-3 text-primary font-bold">
+<span class="material-symbols-outlined">check_circle</span> Khảo Sát Hiện Trạng &amp; Xin Phép Xây Dựng
+                </li>
+<li class="flex items-center gap-3 text-primary font-bold">
+<span class="material-symbols-outlined">check_circle</span> Tính Toán Kết Cấu &amp; Tải Trọng Gió
+                </li>
+<li class="flex items-center gap-3 text-primary font-bold">
+<span class="material-symbols-outlined">check_circle</span> Vật Liệu Cao Cấp (Mica, Alu, LED)
+                </li>
+</ul>
+<button class="bg-[#FFC20F] text-[#0B264B] px-10 py-5 font-button text-lg rounded-lg uppercase shadow-xl hover:translate-y-[-2px] transition-all">Yêu Cầu Báo Giá Trọn Gói</button>
+</div>
+<div class="grid grid-cols-2 gap-gutter">
+<div class="bg-white p-2 rounded-lg shadow-sm">
+<img class="w-full h-40 object-cover rounded" data-alt="Cận cảnh biển hiệu văn phòng chất lượng cao với cắt laser chính xác" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgr3lASabcdd8NRsP4mCk_cOeeFJ4M3TG4A_dgvMet1B_VdTL7ps7EpOPP9oxH9K-H7hDK1UjjRPuLRodWB3wgRPxHmmE5qD62W5OTWSrh0vIskZn_z4OmmxbD3KFyFihZTQYV6DcFjYCp40gk5BUOXHZrAwdtZ_R38o1DHUmAcWe6x5inV_whm0WDnzmoA-gkcVrFk-Ytx9eylfLrQxj2DYUi2ZTiChGKXZivhR-p2O7xU_Dpq0U0MvGJLvCUXYurlcNfcxbPv1Uq"/>
+</div>
+<div class="bg-white p-2 rounded-lg shadow-sm translate-y-12">
+<img class="w-full h-40 object-cover rounded" data-alt="Ngoại thất tòa nhà doanh nghiệp hiện đại với chữ kiến trúc chiếu sáng" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6IPcXSGvHhSHlbalLeLT0MpMOaLV7QPAiA5nI6BECSDC8oWYYczsAoBEn-I1V754d1iRRndOZbu2bADd0eJnHXZg3Hdu8BDzAEK-3Loc6mzD2VAVd9L5KisTp3wzwmm_fDrGjuPerY0NEb0-goNgJoYg9CS2td8k3XCQeIovciDJ7VGCBMunSVwLWgFmJQuI6Se0QNYgHN7IHqcnf_2yTAKUprc-56e-zRYNUeT7K9sNZ57ccbrEf9i7J2DQTZ1QU82KUBkvN34tv"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Signage Construction Gallery (Redesigned) -->
+<section class="py-xl bg-white">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+<div>
+<h2 class="font-h2 text-on-background">Công Trình Tiêu Biểu</h2>
+<p class="text-on-surface-variant mt-2">Sự tinh xảo trên đa dạng chất liệu công nghiệp</p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="px-5 py-2 text-xs font-bold uppercase tracking-widest bg-primary text-white rounded shadow-sm">Tất cả</button>
+<button class="px-5 py-2 text-xs font-bold uppercase tracking-widest bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors rounded">Biển tòa nhà</button>
+<button class="px-5 py-2 text-xs font-bold uppercase tracking-widest bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors rounded">Chữ nổi LED</button>
+<button class="px-5 py-2 text-xs font-bold uppercase tracking-widest bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors rounded">Mặt dựng Alu</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Item 1: Biển tòa nhà -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Hệ thống biển hiệu tòa nhà quy mô lớn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAdJcGDJJwBHcL0K2zAbgS_FQuMGWASojXOyNqjepoY8k0LHs21o1IDcNEzKQWugtPeuvuTOx6LYpk_PDcZORNX2NJ7yVYU_TFYlLr_284OWjjbXMlW93lS9c2niY5QGXdS9UAPyH36frCW-m-ZtaXcoqMUd3fHdO_rcksizPZpymS0eavRTZIvsR4j9Cqx2yOyAfavT3ZPuZcedHKWaLXs1SxQKJGWyVELExYEB64N-HRKYsRL1TAI9DwlE31wH-HP1gKb39KB2Es"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">Biển tòa nhà</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Tòa nhà VP Bank Tower</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">Hệ thống chữ nổi inox gắn LED âm bản mặt mica, lắp đặt trên cao với hệ khung thép chịu lực tiêu chuẩn G7.</p>
+</div>
+<!-- Item 2: Chữ nổi LED -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Chữ nổi LED quảng cáo hiện đại" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfuAp_Y8CxB-imo-Uc-UfAp2vG0Ap90C2CsN94FD9s22fJzex3K5JlcTZVvjSfGRwBkmmihIhUVgCghwfrqDClVrYcPDO1vX8q6XMGmNRsdP4VNnSoaT9ntm7Bb3Jbu4-HuL-Q8BGiPH7B01SWHeR6fmFCqwjV5w-pemLxjyvl9Uk4XS6KFDyOdL-FpjoqE2HYNPx3ONvNX2V1iclmm6QseZdotvg9ZSGFyHmb2blMB28w75Q9HKExt9V53uwDk32d8E3NFEXq1Utl"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">Chữ nổi LED</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Chữ nổi Mica LED Hàn Quốc</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">Sử dụng LED module Samsung chống nước, độ bền cao, ánh sáng tản đều không lộ bóng, bảo hành 3 năm.</p>
+</div>
+<!-- Item 3: Mặt dựng Alu -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Mặt dựng Alu công nghiệp bền bỉ" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjb3CYnzhu2zgcf9yAFuM_K5-MpPwRQsmh3fC0qK_32w0FT2PNSs6YfIU3k7fYiCPMrHsyjeYQhFb15UQPcXRcsnDwD0u45evGPwamnq2kYp7RSosW-qEZWp3TwM88T0y3Qb4PIePBJxX7562K4vSHgSEKxYa-JWhII5bCwYEDxV3cnAjS195E8DnVGtbyMHGv-Txz8PKBrdTASPakgFSrVJBZMtwc6AAeS9Ap1Oul36XKb33J4muPPErt9UL8kf2Wbe_0xv_-REoB"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">Mặt dựng Alu</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Showroom Toyota Long Biên</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">Ốp mặt dựng Alu Alcorest ngoài trời, kết hợp hệ thống biển nhận diện thương hiệu tiêu chuẩn Toyota toàn cầu.</p>
+</div>
+<!-- Item 4: Biển hiệu Pylon -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Biển hiệu cột đứng Pylon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgr3lASabcdd8NRsP4mCk_cOeeFJ4M3TG4A_dgvMet1B_VdTL7ps7EpOPP9oxH9K-H7hDK1UjjRPuLRodWB3wgRPxHmmE5qD62W5OTWSrh0vIskZn_z4OmmxbD3KFyFihZTQYV6DcFjYCp40gk5BUOXHZrAwdtZ_R38o1DHUmAcWe6x5inV_whm0WDnzmoA-gkcVrFk-Ytx9eylfLrQxj2DYUi2ZTiChGKXZivhR-p2O7xU_Dpq0U0MvGJLvCUXYurlcNfcxbPv1Uq"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">Biển Pylon</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Trạm Xăng Dầu Petrolimex</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">Biển hiệu cột đứng kết cấu thép mạ kẽm, mặt biển in UV trên decal xuyên sáng chất lượng cao.</p>
+</div>
+<!-- Item 5: Biển hiệu LED Matrix -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Màn hình LED Matrix quảng cáo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfGZJbAOxo_XqSY8KG1hDDbdLNA_eEsggr2qAJD25AYvaympZtDBOr5XMm0qwRHmDWsa6oTE4YZK3h09t2QXbDVJRj2lOfo7Jr6mlfYYUPHp7gjuBDE7CIDJ2-vYAjPZH2G08JxaUKx6XzJklBUvL-EDZbVpHSVoXg77MxYYpFwGz7xelAP0txfq-vMFOQb0Iy5XRcGG5cQ-Lw2vwhHPnbeoLYXaf_pN-Pk_LHzKHYSSX8Tfd7Pw2gaz5A7tsAe1G_xeB4pJrTibMX"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">LED Matrix</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Trung Tâm TM Vincom</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">Màn hình LED P3 outdoor kích thước lớn, độ phân giải cao phục vụ trình chiếu quảng cáo 24/7.</p>
+</div>
+<!-- Item 6: In ấn khổ lớn -->
+<div class="group flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden rounded-lg bg-slate-100 mb-4">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Dịch vụ in ấn quảng cáo khổ lớn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeYTzRAdnaGK25_v5HA7cxgEfMxeenYcQUcFsH9_za11JUQWI6ldjjeX0nbwRzvRR2u-9W1IkSbZCDSdcJZiv8isx1b7UJxRN50JoaFB8Mpjg3mdzDMQ8DiCK02c-hcKbCRne3grW50W3N-zXyVUXjIhebZYOVAyr9JFN5guMDTfeHZkGZl_xfani0kfZkpXCwgST_SJnVQmsuWmVhOtGFNJEtTMaWLKj-yKWflWHT0_K5cEIzz2whWKCT7Ecf8x2FCqB287GC5KZI"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] px-2 py-1 uppercase font-bold tracking-tighter">In Khổ Lớn</span>
+</div>
+</div>
+<h3 class="font-h3 text-lg mb-1 group-hover:text-primary transition-colors">Pano Quảng Cáo Billboard</h3>
+<p class="text-sm text-on-surface-variant line-clamp-2">In bạt Hiflex không gân, công nghệ in phun dung môi 8 đầu phun cho màu sắc rực rỡ và bền màu nắng mưa.</p>
+</div>
+</div>
+<div class="mt-12 text-center">
+<button class="px-10 py-4 border-2 border-primary text-primary font-button uppercase hover:bg-primary hover:text-white transition-all rounded font-bold">Xem thêm tất cả công trình</button>
+</div>
+</div>
+</section>
+<!-- 7. Light Boxes Grid -->
+<section class="py-xl bg-surface">
+<div class="max-w-[1280px] mx-auto px-8">
+<h2 class="font-h2 text-on-background mb-12 text-center">Hộp Đèn Quảng Cáo Cao Cấp</h2>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="bg-white border border-slate-200 overflow-hidden group">
+<div class="h-48 bg-slate-100">
+<img class="w-full h-full object-cover" data-alt="Hộp đèn LED siêu mỏng hiện đại cho trưng bày bán lẻ" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATjYpjdWiWWdF6s7vKgLPxLD4SSPe9t4HFkQWIjs3RhR4DE8Q5piHdno_lXjw4GmdO-LeYVX1W0HdeghtzBHg5Scy4wttL-SJmOhoPM0-G1RylhoRMXmDI_ZTKjxHbvfFkl_o7lluG0lloI7pzcaHObhxj59JNrhwQ7WwGf4JncJxUcyveOCyVomjsufahnWnYe0Py93hWnPJE7vBHcNkgODF0eEvVXSXRZAx-XOb7stYU4zz-wFnL-uPARvZlIy3Y7tT9vx1Izodq"/>
+</div>
+<div class="p-6">
+<h4 class="font-h3 text-base mb-2">Hộp Đèn Siêu Mỏng</h4>
+<p class="text-sm text-on-surface-variant mb-4">Tiết kiệm điện, độ sáng cao, phù hợp cho showroom cao cấp.</p>
+<button class="text-primary font-bold text-sm">Thông Số Kỹ Thuật <span class="material-symbols-outlined align-middle !text-sm">download</span></button>
+</div>
+</div>
+<div class="bg-white border border-slate-200 overflow-hidden group">
+<div class="h-48 bg-slate-100">
+<img class="w-full h-full object-cover" data-alt="Hộp đèn bạt hiflex truyền thống" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxlWtN8J10nouXntEcMXKaG7_JzwJvBItlL5c425ioE-bJf3f56VY0nt-pKw7Kd-dE7Own6NiQo5XKVXBbjXfY8pzWEgitu7fpDx8NnG3E6PjFDinAMWhLnmfROhQ4diOV29NlxoT7R-sJLS5ZnIa8ApIr8UyLL0ai5LKnJcsTrYTC0Q5hvWi79tdMQRgiF8yKGvrWnizsQbPNsrHY59m1sQcMYQ5SwB7xpr24JwDKc-tmHT4KOIKQUnCuz_UBujli-nMEoEqQfdtB"/>
+</div>
+<div class="p-6">
+<h4 class="font-h3 text-base mb-2">Hộp Đèn Bạt Hiflex</h4>
+<p class="text-sm text-on-surface-variant mb-4">Giải pháp tối ưu chi phí cho biển hiệu quảng cáo quy mô lớn.</p>
+<button class="text-primary font-bold text-sm">Thông Số Kỹ Thuật <span class="material-symbols-outlined align-middle !text-sm">download</span></button>
+</div>
+</div>
+<div class="bg-white border border-slate-200 overflow-hidden group">
+<div class="h-48 bg-slate-100">
+<img class="w-full h-full object-cover" data-alt="Biển hiệu hộp đèn xoay hai mặt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQuI26YM9uXZBSlvVG0RBaxCyiQSjkNLEH4XvEOMEuUelGIqGZKSVk4VG4p0Z8SwT0FUg_Etjx38WbknJ0l2VWsMyvrPULdFBJr-cItzzdiq9hrwcIzrHcPr29tBbCy0xjPQbwrXO9NuN7NfB-Yy_GDpogjyXYKCjLmFRAwutyETvyzdjRhfAscpm5XcOwE2Hm354qRKxuwkAKNieDpovOhjQ665P0QxJMqwdswATYdhHI-3cHias_z-ohQvCMrK_q-MBjW9IfXEP_"/>
+</div>
+<div class="p-6">
+<h4 class="font-h3 text-base mb-2">Biển Hộp Đèn Xoay</h4>
+<p class="text-sm text-on-surface-variant mb-4">Tầm nhìn hai chiều cho các vị trí vỉa hè, mặt phố đông đúc.</p>
+<button class="text-primary font-bold text-sm">Thông Số Kỹ Thuật <span class="material-symbols-outlined align-middle !text-sm">download</span></button>
+</div>
+</div>
+<div class="bg-white border border-slate-200 overflow-hidden group">
+<div class="h-48 bg-slate-100">
+<img class="w-full h-full object-cover" data-alt="Hộp đèn vải không viền với ánh sáng khuếch tán mềm mại" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz0hTwznFASuZ8zy_HudyokEEZNLbM3N4WECcJvtGCeSBjvWP8CSEB8vmxHHuvtL7Ii2NpP7VUSDlgOIYO57vSrTdaRrMjex0jM0cvWPj9qPx0-bQNwFJcdrKPCgYuo-E72ex4rUxo04-LQrEfxl6VAwONfGhclQi2t0R60TH2gMvRux3gCSt9ZmbBojK1Xl0wlyzFbPKKz6ATEgDt30_bYotTeJk5vdwGcnhYt7IMcD5s6CwLTY1M-kmaCCFr9W8oaI0eUpVVO1yx"/>
+</div>
+<div class="p-6">
+<h4 class="font-h3 text-base mb-2">Hộp Đèn 3M / Vải</h4>
+<p class="text-sm text-on-surface-variant mb-4">Ánh sáng mịn, không đổ bóng, chuẩn mực cho showroom xa xỉ.</p>
+<button class="text-primary font-bold text-sm">Thông Số Kỹ Thuật <span class="material-symbols-outlined align-middle !text-sm">download</span></button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Printing Services -->
+<section class="py-xl bg-white">
+<div class="max-w-[1280px] mx-auto px-8 flex flex-col md:flex-row gap-16 items-center">
+<div class="w-full md:w-1/2">
+<img class="w-full aspect-video object-cover rounded-lg shadow-lg" data-alt="Máy in phẳng chuyên nghiệp khổ lớn in đồ họa độ phân giải cao trên tấm cứng" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeYTzRAdnaGK25_v5HA7cxgEfMxeenYcQUcFsH9_za11JUQWI6ldjjeX0nbwRzvRR2u-9W1IkSbZCDSdcJZiv8isx1b7UJxRN50JoaFB8Mpjg3mdzDMQ8DiCK02c-hcKbCRne3grW50W3N-zXyVUXjIhebZYOVAyr9JFN5guMDTfeHZkGZl_xfani0kfZkpXCwgST_SJnVQmsuWmVhOtGFNJEtTMaWLKj-yKWflWHT0_K5cEIzz2whWKCT7Ecf8x2FCqB287GC5KZI"/>
+</div>
+<div class="w-full md:w-1/2">
+<h2 class="font-h2 text-primary mb-6">Giải Pháp In Ấn Công Nghiệp</h2>
+<p class="font-body-lg text-on-surface-variant mb-6">Cơ sở in ấn của chúng tôi sử dụng máy in UV và in dung môi hiện đại nhất để tạo ra các bản in sắc nét, bền màu trước mọi điều kiện thời tiết.</p>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 bg-surface rounded">
+<span class="font-bold text-primary block mb-1">Canvas &amp; Decal</span>
+<p class="text-xs">Giải pháp dán có độ bền cao cho phương tiện giao thông và vách kính.</p>
+</div>
+<div class="p-4 bg-surface rounded">
+<span class="font-bold text-primary block mb-1">Vật Liệu Cứng</span>
+<p class="text-xs">In trực tiếp trên Foam, PVC, Alu và Gỗ với độ bám dính tuyệt đối.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. Design Services Section -->
+<section class="py-xl bg-[#0B264B] text-white">
+<div class="max-w-[1280px] mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="font-h2 text-white">Studio Thiết Kế Toàn Diện</h2>
+<p class="text-slate-400 mt-4 max-w-2xl mx-auto">Từ bộ nhận diện thương hiệu đến các bản vẽ kỹ thuật chi tiết, các nhà thiết kế của chúng tôi kết nối tầm nhìn sáng tạo với thực tế sản xuất công nghiệp.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="space-y-4">
+<div class="aspect-square bg-slate-800 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Hồ sơ thiết kế bộ nhận diện thương hiệu và hệ thống nhận diện doanh nghiệp" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDO_aZ2rCc_cI_qRMFvq8Fs-x8yrkc7vebAaSCaSLfAzyBrFFAM1Nths9c58a5UNOle9vYDqXBtKEEH60iSZJdixlcf6j3iKQ1ycLHfEHgaS3U5fJc_ldfPjGY4IHZvVNQUSyV1sF7xkeTBprrLRSM3tl72t1JE-_k7PnuYmxrphuZIY3iVAcbgS9wb1nARABNFuNLBjzSQMsOELMSYcKPp4F4vkAeeeHPk8llI11UBUiAH64pTE2HErqJIRLH2-sM9KlVEduOXnz5l"/>
+</div>
+<p class="font-h3 text-sm text-center">Logo &amp; Nhận Diện</p>
+</div>
+<div class="space-y-4">
+<div class="aspect-square bg-slate-800 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Thiết kế standee và các định dạng banner quảng cáo ngoài trời" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDt-6xkvAweCoq7LmIkTq5MeT-gj7Yy-kpahEkwMcYS1TLooc4vX5R8rgB8fzjHEavIyJU_UkzX7ZebkPytdmGlLwghqiY4RJmwys4JJOZd7za03UEVGzYKUXHjI39dB07ZYTrhJeBHwyw8Gfk5lJMMu1k_RjrFV22FgNUBhNTJtI4Y8Y45Emj3edsiT3bGkeMHoPwig5atnq_SvF515m8LI5zsode2I1in9lGXhn6UD43CSbTSpq1IbFn-gqmf3fe9gxBPu3PfaFFh"/>
+</div>
+<p class="font-h3 text-sm text-center">Standee &amp; Băng Rôn</p>
+</div>
+<div class="space-y-4">
+<div class="aspect-square bg-slate-800 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Catalogue sản phẩm in ấn chuyên nghiệp cho thiết bị công nghiệp" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMZJJ0JPahsWwDdQ7jXEY1xLVWqg_paXma0OVTKI4tNqpFmAfowP-CP455PGh5lZ5m75ZwEi6kJytiM30_BQ5gxYk0z2ZtV76CbzwL1W0pK1qzB6GKT0WhF_vF9gy2UjjKFxdpobWEx44qEEoLEX2jgCNjCqgSOun-wb6sPdsGEAr8R4jdaOorh3yCsVy5xLhEMvgHlVc3HoKPZCuXfvNbXi5t4mvRnMqcC0JuGXQFAF0uY1ldLpwqpXfYM5bgXAKSoJALUbUxEm0-"/>
+</div>
+<p class="font-h3 text-sm text-center">Catalogue &amp; Brochure</p>
+</div>
+<div class="space-y-4">
+<div class="aspect-square bg-slate-800 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Thiết kế giao diện cho biển hiệu kỹ thuật số tương tác và ki-ốt thông tin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfGZJbAOxo_XqSY8KG1hDDbdLNA_eEsggr2qAJD25AYvaympZtDBOr5XMm0qwRHmDWsa6oTE4YZK3h09t2QXbDVJRj2lOfo7Jr6mlfYYUPHp7gjuBDE7CIDJ2-vYAjPZH2G08JxaUKx6XzJklBUvL-EDZbVpHSVoXg77MxYYpFwGz7xelAP0txfq-vMFOQb0Iy5XRcGG5cQ-Lw2vwhHPnbeoLYXaf_pN-Pk_LHzKHYSSX8Tfd7Pw2gaz5A7tsAe1G_xeB4pJrTibMX"/>
+</div>
+<p class="font-h3 text-sm text-center">UX Biển Hiệu Số</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. Process Section (Quy Trình) -->
+<section class="py-xl bg-white">
+<div class="max-w-[1280px] mx-auto px-8">
+<h2 class="font-h2 text-center mb-16">Quy Trình Làm Việc Tiêu Chuẩn</h2>
+<div class="relative">
+<div class="hidden lg:block absolute top-12 left-0 w-full h-1 bg-slate-100 z-0"></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter relative z-10">
+<div class="bg-white p-8 border border-slate-100 text-center flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center font-bold text-xl mb-6 ring-8 ring-slate-50">01</div>
+<h4 class="font-h3 text-lg mb-2">Khảo Sát</h4>
+<p class="text-sm text-on-surface-variant">Thực hiện đo đạc thực tế và phân tích kỹ thuật tại hiện trường công trình.</p>
+</div>
+<div class="bg-white p-8 border border-slate-100 text-center flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center font-bold text-xl mb-6 ring-8 ring-slate-50">02</div>
+<h4 class="font-h3 text-lg mb-2">Thiết Kế</h4>
+<p class="text-sm text-on-surface-variant">Lên phối cảnh 3D và bóc tách bản vẽ kỹ thuật chi tiết phục vụ sản xuất.</p>
+</div>
+<div class="bg-white p-8 border border-slate-100 text-center flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center font-bold text-xl mb-6 ring-8 ring-slate-50">03</div>
+<h4 class="font-h3 text-lg mb-2">Sản Xuất</h4>
+<p class="text-sm text-on-surface-variant">Gia công chính xác tại xưởng với hệ thống máy móc tự động hiện đại.</p>
+</div>
+<div class="bg-white p-8 border border-slate-100 text-center flex flex-col items-center">
+<div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center font-bold text-xl mb-6 ring-8 ring-slate-50">04</div>
+<h4 class="font-h3 text-lg mb-2">Lắp Đặt</h4>
+<p class="text-sm text-on-surface-variant">Thi công chuyên nghiệp, đảm bảo tiến độ, an toàn lao động và thẩm mỹ.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 11. Trusted Partners -->
+<section class="py-lg bg-surface border-y border-slate-200">
+<div class="max-w-[1280px] mx-auto px-8">
+<p class="text-center font-label-caps text-slate-500 mb-8 uppercase tracking-widest">Dự Án Được Tin Tưởng Bởi</p>
+<div class="flex flex-wrap justify-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
+<span class="text-2xl font-bold">SAMSUNG</span>
+<span class="text-2xl font-bold">VINGROUP</span>
+<span class="text-2xl font-bold">COCA-COLA</span>
+<span class="text-2xl font-bold">HUAWEI</span>
+<span class="text-2xl font-bold">TOYOTA</span>
+</div>
+</div>
+</section>
+<!-- 12. Footer (Shared Component) -->
+<footer class="bg-[#0B264B] text-white border-t border-slate-700">
+<div class="w-full py-16 px-8 grid grid-cols-1 md:grid-cols-4 gap-12 max-w-[1280px] mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-bold text-white">SignCraft Industrial</div>
+<p class="font-['Work_Sans'] text-sm leading-relaxed text-slate-300">
+                Đơn vị hàng đầu về biển hiệu kết cấu và các giải pháp truyền thông công nghiệp từ năm 1994. Sự chính xác, an toàn và xuất sắc trong mọi dự án.
+            </p>
+<div class="flex gap-4">
+<a class="w-8 h-8 rounded-full border border-slate-600 flex items-center justify-center hover:bg-[#FFC20F] hover:text-[#0B264B] transition-colors" href="#"><span class="material-symbols-outlined !text-sm">share</span></a>
+<a class="w-8 h-8 rounded-full border border-slate-600 flex items-center justify-center hover:bg-[#FFC20F] hover:text-[#0B264B] transition-colors" href="#"><span class="material-symbols-outlined !text-sm">mail</span></a>
+<a class="w-8 h-8 rounded-full border border-slate-600 flex items-center justify-center hover:bg-[#FFC20F] hover:text-[#0B264B] transition-colors" href="#"><span class="material-symbols-outlined !text-sm">location_on</span></a>
+</div>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-[#FFC20F] uppercase tracking-wider text-sm">Dịch Vụ</h4>
+<nav class="flex flex-col gap-2">
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Thư Viện Dự Án</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Dịch Vụ In Ấn</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Studio Thiết Kế</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Hộp Đèn Quảng Cáo</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Thi Công Xây Dựng</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-[#FFC20F] uppercase tracking-wider text-sm">Doanh Nghiệp</h4>
+<nav class="flex flex-col gap-2">
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Chính Sách Bảo Mật</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Điều Khoản Dịch Vụ</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Tiêu Chuẩn An Toàn</a>
+<a class="text-slate-300 hover:text-white transition-transform duration-200 hover:translate-x-1 font-['Work_Sans'] text-sm" href="#">Tuyển Dụng</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-[#FFC20F] uppercase tracking-wider text-sm">Liên Hệ</h4>
+<div class="text-slate-300 font-['Work_Sans'] text-sm leading-relaxed">
+<p>Trụ sở chính: 123 Industrial Way, Building B</p>
+<p class="mt-2">Điện thoại: 1800-SIGN-CRAFT</p>
+<p>Email: contact@signcraft.ind</p>
+</div>
+<div class="mt-4 p-4 border border-slate-700 bg-slate-900/50 rounded">
+<p class="text-xs text-[#FFC20F] font-bold uppercase mb-1">Bản Tin</p>
+<div class="flex">
+<input class="bg-transparent border-slate-600 text-xs w-full focus:ring-[#FFC20F]" placeholder="Nhập Email" type="email"/>
+<button class="bg-[#FFC20F] text-[#0B264B] px-3"><span class="material-symbols-outlined !text-sm">send</span></button>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto px-8 py-8 border-t border-slate-700 text-center">
+<p class="font-['Work_Sans'] text-sm text-slate-400">© 2024 SignCraft Industrial. Sự Chính Xác Trong Từng Biển Hiệu.</p>
+</div>
+</footer>
+</body></html>
