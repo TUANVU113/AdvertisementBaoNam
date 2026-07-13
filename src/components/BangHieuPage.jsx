@@ -55,7 +55,7 @@ export default function BangHieuPage() {
               Bảng Hiệu Quảng Cáo
             </h1>
             <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Chúng tôi cung cấp đa dạng giải pháp bảng hiệu quảng cáo từ bảng hiệu 2D truyền thống đến chữ nổi Inox, Mica LED cao cấp. Mỗi sản phẩm đều được gia công chính xác và lắp đặt chuyên nghiệp.
+              BAO NAM cung cấp đa dạng giải pháp bảng hiệu quảng cáo từ bảng hiệu 2D truyền thống đến chữ nổi Inox, Mica LED cao cấp. Mỗi sản phẩm đều được gia công chính xác và lắp đặt chuyên nghiệp.
             </p>
             <div className="h-1 w-24 bg-primary mx-auto rounded mt-6"></div>
           </div>

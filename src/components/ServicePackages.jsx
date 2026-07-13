@@ -31,7 +31,7 @@ export default function ServicePackages() {
             Giải Pháp Biển Hiệu Trọn Gói
           </h2>
           <p className="font-body-lg text-slate-700 mb-8 leading-relaxed">
-            Chúng tôi đồng hành cùng khách hàng từ khâu lên ý tưởng thiết kế, hoàn thiện thủ tục pháp lý, tính toán tải trọng kỹ thuật cho đến sản xuất và lắp đặt tại hiện trường. Đảm bảo tính an toàn cao nhất và tiến độ thi công chính xác.
+            BAO NAM đồng hành cùng khách hàng từ khâu lên ý tưởng thiết kế, hoàn thiện thủ tục pháp lý, tính toán tải trọng kỹ thuật cho đến sản xuất và lắp đặt tại hiện trường. Đảm bảo tính an toàn cao nhất và tiến độ thi công chính xác.
           </p>
 
           <ul className="space-y-4 mb-10">
