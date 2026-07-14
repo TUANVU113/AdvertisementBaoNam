@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { products2D } from '../data/BangHieu';
+import { products2D, productsChuNoi } from '../data/BangHieu';
 import { Link } from 'react-router-dom';
 
 export default function BangHieuSection() {
-    const products = products2D.slice(0, 6);
+    // Lấy 3 sản phẩm 2D đầu tiên và 3 sản phẩm chữ nổi đầu tiên
+    const products = [
+        ...products2D.slice(0, 3).map(p => ({ ...p, categoryName: 'Bảng Hiệu 2D' })),
+        ...productsChuNoi.slice(0, 3).map(p => ({ ...p, categoryName: 'Bảng Hiệu Chữ Nổi' }))
+    ];
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -62,7 +66,7 @@ export default function BangHieuSection() {
                                 {/* Category Badge */}
                                 <div className="absolute top-4 left-4 z-10 flex gap-2 flex-col items-start">
                                     <span className="bg-primary/90 backdrop-blur-sm text-white text-[10px] px-3 py-1 uppercase font-extrabold tracking-wider rounded-sm shadow-sm">
-                                        Bảng Hiệu 2D
+                                        {product.categoryName}
                                     </span>
                                 </div>
                                 <div className="absolute top-4 right-4 z-10">

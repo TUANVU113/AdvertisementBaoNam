@@ -82,6 +82,18 @@ export const productsChuNoi = [
         images: [BangHieuChuNoi1],
     },
     {
+        id: 15,
+        title: 'Bảng hiệu chữ nổi mica đèn LED trong nhà',
+        description: 'Thiết kế bảng hiệu Nha Khoa Thanh Trúc sử dụng chữ nổi LED tinh tế, ánh sáng dịu nhẹ giúp không gian trở nên chuyên nghiệp và đáng tin cậy. Logo phát sáng tạo điểm nhấn ấn tượng, nâng cao trải nghiệm khách hàng ngay từ khi bước vào.',
+        images: [BangHieuChuNoi6],
+    },
+    {
+        id: 22,
+        title: 'Bảng hiệu chữ nổi mica LED mặt sáng nền alu vân gỗ',
+        description: 'Bảng hiệu sáng rõ dễ nhìn từ xa, đặc biệt hiệu quả vào ban đêm. Phù hợp cho quán ăn cần thu hút khách nhanh và tăng lượng khách vãng lai.',
+        images: [BangHieuChuNoi13],
+    },
+    {
         id: 11,
         title: 'Chữ nổi Inox vàng gương',
         description: 'Chữ nổi Inox 304 mạ vàng gương sáng bóng, tạo vẻ sang trọng và đẳng cấp cho mặt tiền công ty, khách sạn, nhà hàng. Cắt CNC chính xác, hàn chắc chắn, bền bỉ với thời gian.',
@@ -104,12 +116,6 @@ export const productsChuNoi = [
         title: 'Chữ nổi mica đèn LED kết hợp logo hộp đèn và chữ nổi phân tầng',
         description: 'Thiết kế bảng hiệu HOTSPACE nổi bật với hệ chữ nổi LED sáng rõ, logo hộp đèn ấn tượng và bố cục phân tầng chuyên nghiệp. Không chỉ tăng độ nhận diện thương hiệu, bảng hiệu còn giúp thu hút khách hàng ngay từ cái nhìn đầu tiên',
         images: [BangHieuChuNoi5],
-    },
-    {
-        id: 15,
-        title: 'Bảng hiệu chữ nổi mica đèn LED trong nhà',
-        description: 'Thiết kế bảng hiệu Nha Khoa Thanh Trúc sử dụng chữ nổi LED tinh tế, ánh sáng dịu nhẹ giúp không gian trở nên chuyên nghiệp và đáng tin cậy. Logo phát sáng tạo điểm nhấn ấn tượng, nâng cao trải nghiệm khách hàng ngay từ khi bước vào.',
-        images: [BangHieuChuNoi6],
     },
     {
         id: 16,
@@ -146,12 +152,6 @@ export const productsChuNoi = [
         title: 'Bảng hiệu chữ nổi mica LED gắn khung sắt decor ngoài trời',
         description: 'Không chỉ là bảng hiệu, đây là điểm check-in. Ánh sáng vàng ấm cùng không gian xanh tạo cảm giác chill, giúp quán nổi bật cả ngày lẫn đêm và thu hút khách hàng đến trải nghiệm.',
         images: [BangHieuChuNoi12],
-    },
-    {
-        id: 22,
-        title: 'Bảng hiệu chữ nổi mica LED mặt sáng nền alu vân gỗ',
-        description: 'Bảng hiệu sáng rõ dễ nhìn từ xa, đặc biệt hiệu quả vào ban đêm. Phù hợp cho quán ăn cần thu hút khách nhanh và tăng lượng khách vãng lai.',
-        images: [BangHieuChuNoi13],
     },
     {
         id: 23,
