@@ -202,12 +202,6 @@ export const thiCongKhacProducts = [
 
 export const ThiCongTronGoi = [
     {
-        id: 4,
-        title: 'Thi công mặt dựng trọn gói tòa nhà',
-        description: 'Dịch vụ thi công trọn gói tòa nhà bao gồm toàn bộ hạng mục từ mặt dựng, bảng hiệu, ốp vật liệu đến hoàn thiện ngoại thất. Công trình sử dụng kết hợp kính cường lực (curtain wall), alu, lam trang trí và hệ chữ nổi LED, đảm bảo tính thẩm mỹ và nhận diện thương hiệu.',
-        images: [TronGoi4, TronGoi44, TronGoi444, TronGoi4444, TronGoi44444, TronGoi444444],
-    },
-    {
         id: 7,
         title: 'Thi công bảng hiệu chữ nổi kết hợp nền trang trí ánh kim',
         description: 'Sự kết hợp hoàn hảo giữa công nghệ đèn LED hiện đại và vẻ đẹp kim loại sang trọng tạo nên một bảng hiệu độc đáo, đẳng cấp và thu hút mọi ánh nhìn.',
