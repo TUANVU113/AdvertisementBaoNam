@@ -154,9 +154,6 @@ export default function Header() {
                       </Link>
                     ))}
                   </div>
-                  <div className="bg-slate-50 px-5 py-3 border-t border-slate-100">
-                    <p className="text-[10px] text-slate-400 uppercase tracking-wider font-bold">Sắp ra mắt: Hộp đèn, Quảng cáo...</p>
-                  </div>
                 </div>
               )}
             </div>
